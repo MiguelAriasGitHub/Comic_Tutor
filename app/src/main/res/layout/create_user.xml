@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    >
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress4"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:drawableBottom="@android:drawable/bottom_bar"
+        android:drawableTint="#FFFFFF"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:drawableBottom="@android:drawable/bottom_bar"
+        android:drawableTint="#FFFFFF"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+
+        android:backgroundTint="@null"
+        android:backgroundTintMode="add"
+        android:fontFamily="@font/bangers"
+        android:shadowColor="@color/white"
+        android:text="@string/submit"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="18sp"
+        app:iconTint="@color/white"
+        app:iconTintMode="add"
+        app:rippleColor="@color/white"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@null"
+        android:backgroundTintMode="add"
+        android:fontFamily="@font/bangers"
+        android:shadowColor="@color/white"
+        android:text="@string/create"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="30sp"
+        app:iconTint="@color/white"
+        app:iconTintMode="add"
+        app:rippleColor="@color/white"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="86dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

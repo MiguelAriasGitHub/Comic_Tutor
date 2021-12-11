@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">COMIC TUTOR</string>
+    <string name="string">COMIC TUTOR</string>
+    <string name="lema">Learn Without Noticing</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="signin">SIGN IN</string>
+    <string name="submit">SUBMIT</string>
+    <string name="password">Text Password</string>
+    <string name="create">CREATE YOUR USER</string>
+    <string name="pick">PICK A COMIC</string>
+    <string name="instruction">Your Character Is: Spiderman! Read The Dialog</string>
+</resources>
